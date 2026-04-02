@@ -22,7 +22,7 @@
 
 body {
   background-color: var(--color-mustard);
-  background-image: url('/images/sfondosuperserio.png');
+  /* background-image: none; */
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
