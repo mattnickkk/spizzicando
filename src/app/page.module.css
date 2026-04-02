@@ -1,0 +1,160 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 4rem;
+}
+
+.heroSection {
+  background-color: var(--color-mustard);
+  border-top: var(--cartoon-border);
+  border-bottom: var(--cartoon-border);
+  padding: 2.5rem;
+  width: 100%;
+}
+
+.sloganSection {
+  text-align: center;
+  padding: 3rem 2rem;
+  background-color: var(--color-cream);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slogan {
+  font-size: 3.5rem;
+  color: var(--color-ketchup);
+  text-shadow: 2px 2px 0px var(--color-brown-dark);
+  margin-bottom: 2.5rem;
+  line-height: 1.1;
+}
+
+.heroBtn {
+  font-size: 1.8rem;
+  padding: 1rem 3rem;
+  background-color: var(--color-mustard);
+}
+
+.specialtiesSection {
+  padding: 2rem 1.5rem;
+}
+
+.burgersGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+
+.locationSection {
+  padding: 1rem 1.5rem;
+}
+
+.locationBox {
+  background-color: var(--color-mustard);
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.locationContent {
+  flex: 1;
+  min-width: 250px;
+}
+
+.locationTitle {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-brown-dark);
+}
+
+.locationDetails {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.3;
+  color: var(--color-brown-dark);
+}
+
+.locationName {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  color: var(--color-ketchup);
+  letter-spacing: 1px;
+  margin-bottom: 0.25rem;
+}
+
+.locationAddress {
+  margin-bottom: 0.75rem;
+}
+
+.locationHours {
+  margin-bottom: 0.75rem;
+  background-color: var(--color-cream);
+  padding: 0.5rem 0.75rem;
+  border: 2px dashed var(--color-brown-dark);
+  border-radius: 8px;
+}
+
+.hoursTitle {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+  color: var(--color-brown-dark);
+}
+
+.locationHours ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.locationHours li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.2rem;
+  border-bottom: 1px dotted rgba(0,0,0,0.2);
+  padding-bottom: 0.1rem;
+  font-size: 0.9rem;
+}
+
+.locationHours li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.closedDay {
+  color: var(--color-ketchup);
+  font-family: var(--font-heading);
+  letter-spacing: 0.5px;
+}
+
+.locationPhone {
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+  color: var(--color-ketchup);
+  margin-top: 0.25rem;
+}
+
+.locationVisual {
+  display: flex;
+  flex: 1;
+  min-width: 200px;
+  position: relative;
+  min-height: 200px;
+}
+
+@media (max-width: 700px) {
+  .burgersGrid {
+    grid-template-columns: 1fr;
+  }
+  .slogan {
+    font-size: 2.5rem;
+  }
+  .locationBox {
+    flex-direction: column;
+  }
+  .locationVisual {
+    flex-direction: column;
+  }
+}

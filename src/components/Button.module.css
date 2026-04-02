@@ -1,0 +1,22 @@
+.btn {
+  display: inline-block;
+  background-color: var(--color-mustard);
+  color: var(--color-brown-dark);
+  font-family: var(--font-heading);
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  padding: 0.4rem 1.5rem;
+  border: var(--cartoon-border);
+  border-radius: 9999px;
+  box-shadow: var(--cartoon-shadow);
+  transition: all 0.2s ease;
+  position: relative;
+  text-decoration: none;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.btn:active {
+  box-shadow: var(--cartoon-shadow-hover);
+  transform: translate(4px, 4px);
+}

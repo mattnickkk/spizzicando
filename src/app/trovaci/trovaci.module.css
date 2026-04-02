@@ -1,0 +1,94 @@
+.container {
+  padding: 4rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contentWrapper {
+  display: flex;
+  gap: 3rem;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+}
+
+.mapBox {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.largeMap {
+  width: 100%;
+  height: auto;
+  border: var(--cartoon-border);
+  border-radius: 8px;
+}
+
+.infoCol {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  min-width: 300px;
+}
+
+.infoCol h2 {
+  font-size: 2rem;
+  color: var(--color-ketchup);
+  margin-bottom: 1rem;
+  border-bottom: var(--cartoon-border);
+  padding-bottom: 0.5rem;
+}
+
+.detail {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  font-family: var(--font-heading);
+}
+
+.hoursList {
+  list-style: none;
+}
+
+.hoursList li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+  font-family: var(--font-heading);
+  border-bottom: 2px dashed var(--color-mustard);
+}
+
+.servicesBanner {
+  margin-top: 4rem;
+  background-color: var(--color-mustard);
+  padding: 3rem;
+  border: var(--cartoon-border);
+  border-radius: 12px;
+  box-shadow: var(--cartoon-shadow);
+  text-align: center;
+}
+
+.servicesBanner h2 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.servicesGrid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.serviceItem {
+  background: white;
+  padding: 1rem 2rem;
+  border: var(--cartoon-border);
+  border-radius: 999px;
+  font-family: var(--font-heading);
+  font-size: 1.25rem;
+}

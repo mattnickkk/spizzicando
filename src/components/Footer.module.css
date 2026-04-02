@@ -1,0 +1,16 @@
+.footer {
+  margin-top: 4rem;
+  padding: 2rem;
+  border-top: var(--cartoon-border);
+  background-color: var(--color-ketchup);
+  color: var(--color-cream);
+  text-align: center;
+}
+
+.content {
+  font-family: var(--font-heading);
+  letter-spacing: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
